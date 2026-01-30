@@ -1,0 +1,18 @@
+# IDE
+.idea/
+
+# OS
+.DS_Store
+
+# Build
+bin/
+build/
+*.exe
+*.out
+
+# Logs
+*.log
+
+# Env (ileride lazım olacak)
+.env
+.env.*
