@@ -17,6 +17,7 @@ Clean Architecture prensiplerine uygun olarak Go ile geliştirilmiş bu servis; 
 - Merkezi hata işleme yapısı
 
 ### Mimari Genel Bakış: 
+```pgsql
 cmd/                    → Uygulama giriş noktası
 internal/
    ├── service/         → İş mantığı katmanı
@@ -24,6 +25,7 @@ internal/
    ├── viewmodel/       → API response modelleri
    └── infrastructure/
            └── cache/   → Redis entegrasyonu
+```
 
 ### Mimari Prensibi:
 Bağımlılıklar içeri doğru akar. İş mantığı, çerçevelerden ve harici sistemlerden bağımsız kalır.
