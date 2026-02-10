@@ -178,9 +178,3 @@ GET /guncel-kur
 > **Notes:**
 - The application depends on the HTML structure of the TDV page. Structural changes may require parser updates.
 - The caching strategy reduces external requests and improves performance.
-
-
-
-
-
-
